@@ -7,6 +7,7 @@
 
 <h2 align="center"> ❤️ Project  Contributors  ❤️</h2>
 
-| [![VideoBlocks](https://github.com/rohank2502.png)](https://github.com/rohank2502.com)  | [![AudioBlocks](https://github.com/gouriejagtap.png)](http://audioblocks.com) |  |
+| [![ROHAN](https://github.com/rohank2502.png)](https://github.com/rohank2502.com)  | [![GOURIE](https://github.com/gouriejagtap.png)](https://github.com/gouriejagtap.com) | |
 |:---:|:---:|:---:|
 | **ROHAN KULKARNI** | **GOURIE JAGTAP** |  |
+
