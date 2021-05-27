@@ -18,6 +18,12 @@
     word-spacing: 5vmin;
 }
 
+.flag {
+    position: fixed;
+    left: 10vmin;
+    width: 10vmin;
+}
+
 
 .header .navbar li{
 
