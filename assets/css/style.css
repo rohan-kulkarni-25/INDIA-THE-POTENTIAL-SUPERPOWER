@@ -38,7 +38,7 @@
     text-decoration: none;
 }
 body{
-    background-color: coral;
+    background-image:linear-gradient(rgb(243, 109, 0),rgb(0, 0, 112),rgb(0, 219, 0))
 }
 
 .box{
@@ -48,13 +48,11 @@ body{
 }
 
 
-
-
 .intro{
     margin-top: 13vmin;
     border-radius: 2vmin;
-    background-color: aliceblue;
-    height:83vmin;
+    background-color: rgb(255, 255, 255);
+    height:auto;
     padding: 1vmin;
     padding-top: 2vmin;
     
@@ -72,7 +70,9 @@ body{
     margin: 0vmin;
     padding: 0vmin;
     padding-bottom: 2vmin;
+    word-spacing: 5px;
 }
+
 
 .title img{
     width: 20vmin;
@@ -80,20 +80,25 @@ body{
 }
 
 .intro .description{
-    font-size: 3vmin;
+    font-size: x-large;
     padding: 2vmin;
+}
+.highlight{
+    background-color: #ddff45;
 }
 
 .hisgeo{
     
-    border-radius: 2vmin;
-   
+    border-radius: 2vmin;  
     background-color: skyblue;
-    height: 95vmin;
+    height: auto;
     padding: 1vmin;
     margin-top: 15vmin;
     
     
+}
+#hist{
+    font-size:x-large;
 }
 .hisgeo .title{
     padding-top: 15vmin;
