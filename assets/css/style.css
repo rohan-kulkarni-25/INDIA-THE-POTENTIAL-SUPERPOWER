@@ -1,19 +1,27 @@
 .header{
+    position: fixed;
+    top: 2vmin;
     background-color: white;
-    width: 100%;
-   overflow: hidden;
+    width: 99%;
+    border-radius: 3vmin;
+   
 }
 
 .header .navbar{
     font-size: 3vmin;
-    
 }
 
 .navbar{
-    overflow: hidden;
+    
     float: right;
     padding-right: 3vmin;
     word-spacing: 5vmin;
+}
+
+.flag {
+    position: fixed;
+    left: 10vmin;
+    width: 10vmin;
 }
 
 
@@ -24,8 +32,13 @@
     
 }
 
+.header .navbar a{
+
+    color: black;
+    text-decoration: none;
+}
 body{
-    background-color: skyblue;
+    background-color: coral;
 }
 
 .box{
@@ -34,22 +47,118 @@ body{
     font-size: 3vmin;
 }
 
-.foot{
-    /* position: absolute; */
-    bottom: 0vmin;
-    width: 100%;
-    height: 10vmin;
-    background-color: black;
-    color: white;
+
+
+
+.intro{
+    margin-top: 13vmin;
+    border-radius: 2vmin;
+    background-color: aliceblue;
+    height:83vmin;
+    padding: 1vmin;
+    padding-top: 2vmin;
+    
+}
+
+.title{
+    
+    padding: 1vmin;
+    font-size: 8vmin;
     text-align: center;
-    padding-bottom: 0vmin;
-    margin-bottom: 0vmin;
+
 }
 
-.foot p{
-    font-size: 5vmin;
+.title p{
+    margin: 0vmin;
+    padding: 0vmin;
+    padding-bottom: 2vmin;
+}
+
+.title img{
+    width: 20vmin;
+    border-radius: 25vmin;
+}
+
+.intro .description{
+    font-size: 3vmin;
     padding: 2vmin;
-    /* padding-bottom: 0vmin; */
-    margin-bottom: 0vmin;
-
 }
+
+.hisgeo{
+    
+    border-radius: 2vmin;
+   
+    background-color: skyblue;
+    height: 95vmin;
+    padding: 1vmin;
+    margin-top: 15vmin;
+    
+    
+}
+.hisgeo .title{
+    padding-top: 15vmin;
+}
+.indcontribute{
+    border-radius: 2vmin;
+    margin-top: 15vmin;
+    background-color: skyblue;
+    height: 95vmin;
+    padding: 1vmin;
+    
+}
+.indcontribute .title{
+    padding-top: 15vmin;
+}
+
+.probsols{
+    border-radius: 2vmin;
+    
+    margin-top: 15vmin;
+    margin-bottom: 2vmin;
+    background-color: skyblue;
+    height: 85vmin;
+    padding: 1vmin;
+}
+
+.probsols .title{
+    padding-top: 15vmin;
+}
+
+
+
+#button {
+    display: inline-block;
+    background-color: #FF9800;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, 
+      /* opacity .5s, visibility .5s; */
+    opacity: 0;
+    /* visibility: hidden; */
+    /* z-index: 1000; */
+  }
+  #button::after {
+    content: "\f077";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #fff;
+  }
+  #button:hover {
+    cursor: pointer;
+    background-color: #333;
+  }
+  #button:active {
+    background-color: #555;
+  }
+  #button.show {
+    opacity: 1;
+    visibility: visible;
+  }
