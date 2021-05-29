@@ -1,3 +1,4 @@
+
 .header{
     position: fixed;
     top: 2vmin;
@@ -51,10 +52,11 @@ body{
 .intro{
     margin-top: 13vmin;
     border-radius: 2vmin;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(37, 34, 39);
     height:auto;
     padding: 1vmin;
     padding-top: 2vmin;
+    box-shadow:1px 1px 10px rgb(0, 0, 0),1px 1px 10px rgb(0, 0, 0),1px 1px 10px rgb(0, 0, 0) inset,1px 1px 10px rgb(0, 0, 0) inset;
     
 }
 
@@ -63,7 +65,52 @@ body{
     padding: 1vmin;
     font-size: 8vmin;
     text-align: center;
-
+}
+#india{
+    margin-left: 42%;
+    margin-right:42%;
+    animation: animate 1s linear infinite;
+    color: rgb(255, 255, 255);
+    background-color: rgb(26, 25, 25);
+}
+@keyframes animate{
+    0%
+    {
+        opacity: 4;
+        color: rgb(255, 255, 255);
+    }
+    33.33%
+    {
+        opacity: 1;
+        color: rgba(253, 51, 0, 0.808);
+    }
+    66.66%
+    {
+        opacity: 1;
+        color: rgb(0, 31, 133);
+    }
+    90%
+    {
+        opacity: 1;
+        color: rgb(0, 179, 0);
+    }
+}
+#potential{
+    animation: texttype 3s infinite;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-left: 270px;
+    color: white;
+}
+@keyframes texttype{
+    0%{
+        width: 0ch;
+        color: rgb(172, 211, 0);
+    }
+    100%{
+        width: 29.6ch;
+        color: white;
+    }
 }
 
 .title p{
@@ -77,14 +124,18 @@ body{
 .title img{
     width: 20vmin;
     border-radius: 25vmin;
+    border: 5px solid rgb(0, 31, 134);
 }
+
 
 .intro .description{
     font-size: x-large;
     padding: 2vmin;
+    color: rgb(214, 214, 214);
 }
 .highlight{
-    background-color: #ddff45;
+    background-color: #f7e0a2;
+    color: black;
 }
 
 .hisgeo{
