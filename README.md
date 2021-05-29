@@ -11,6 +11,6 @@
 |:---:|:---:|:---:|
 | **ROHAN KULKARNI** | **GOURIE JAGTAP** |  **TEJAS MULUK** |
 
-| [![ABHIJIT](https://github.com/mr-a-01.png)](https://github.com/mr-a-01)  | [![VAISHNAVI](https://github.com/png)](https://github.com/mr-a-01) | [![SHRUTI](https://github.com/shrutim0903.png)](https://github.com/shrutim0903) | 
+| [![ABHIJIT](https://github.com/mr-a-01.png)](https://github.com/mr-a-01)  | [![VAISHNAVI](https://github.com/Vaishnavi2362png)](https://github.com/Vaishnavi2362) | [![SHRUTI](https://github.com/shrutim0903.png)](https://github.com/shrutim0903) | 
 |:---:|:---:|:---:|
 | **ABHIJIT LAVHALE** | **VAISHNAVI KOLHE** | **SHRUTI MANDALE**  |
