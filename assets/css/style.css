@@ -10,6 +10,7 @@
 
 .header .navbar{
     font-size: 3vmin;
+
 }
 
 .navbar{
@@ -18,7 +19,6 @@
     padding-right: 3vmin;
     word-spacing: 5vmin;
 }
-
 .flag {
     position: fixed;
     left: 10vmin;
@@ -41,7 +41,19 @@
 body{
     background-image:linear-gradient(rgb(243, 109, 0),rgb(0, 0, 112),rgb(0, 219, 0))
 }
-
+@media screen and (max-width:600px) {
+    .navbar{
+        float: none;
+        word-spacing: 2vmin;
+    }
+    .flag{
+        left: 4vmin;
+        width:7vmin;
+        top: 11px;
+        position: fixed;
+    }
+    
+}
 .box{
 
     padding: 2vmin;
@@ -54,7 +66,7 @@ body{
     border-radius: 2vmin;
     background-color: rgb(37, 34, 39);
     height:auto;
-    padding: 1vmin;
+    padding: 4vmin;
     padding-top: 2vmin;
     box-shadow:1px 1px 10px rgb(0, 0, 0),1px 1px 10px rgb(0, 0, 0),1px 1px 10px rgb(0, 0, 0) inset,1px 1px 10px rgb(0, 0, 0) inset;
     
@@ -71,7 +83,8 @@ body{
     margin-right:42%;
     animation: animate 1s linear infinite;
     color: rgb(255, 255, 255);
-    background-color: rgb(26, 25, 25);
+    /* background-image:linear-gradient(rgb(255, 174, 108),rgb(255, 255, 255),rgb(255, 172, 104)); */
+    filter: drop-shadow(4px 4px 3px rgb(0, 0, 0));
 }
 @keyframes animate{
     0%
@@ -99,7 +112,7 @@ body{
     animation: texttype 3s infinite;
     overflow: hidden;
     white-space: nowrap;
-    margin-left: 270px;
+    margin-left: 290px;
     color: white;
 }
 @keyframes texttype{
@@ -108,7 +121,7 @@ body{
         color: rgb(172, 211, 0);
     }
     100%{
-        width: 29.6ch;
+        width: 29.5ch;
         color: white;
     }
 }
@@ -198,7 +211,7 @@ body{
     /* visibility: hidden; */
     /* z-index: 1000; */
   }
-  #button::after {
+#button::after {
     content: "\f077";
     font-family: FontAwesome;
     font-weight: normal;
@@ -206,15 +219,16 @@ body{
     font-size: 2em;
     line-height: 50px;
     color: #fff;
-  }
-  #button:hover {
+}
+#button:hover {
     cursor: pointer;
     background-color: #333;
-  }
-  #button:active {
+}
+#button:active {
     background-color: #555;
-  }
-  #button.show {
+}
+#button.show {
     opacity: 1;
     visibility: visible;
-  }
+}
+
