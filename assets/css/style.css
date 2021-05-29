@@ -2,10 +2,10 @@
 .header{
     position: fixed;
     top: 2vmin;
-    background-color: white;
+    background-color: #d8c3a5;
     width: 99%;
     border-radius: 3vmin;
-   
+    box-shadow:1px 1px 3px #2e151b ,1px 1px 3px #2e151b,1px 1px 3px #2e151b inset,1px 1px 3px #2e151b inset;
 }
 
 .header .navbar{
@@ -39,7 +39,7 @@
     text-decoration: none;
 }
 body{
-    background-image:linear-gradient(rgb(243, 109, 0),rgb(0, 0, 112),rgb(0, 219, 0))
+    background-color: #116466;
 }
 @media screen and (max-width:600px) {
     .navbar{
@@ -64,7 +64,7 @@ body{
 .intro{
     margin-top: 13vmin;
     border-radius: 2vmin;
-    background-color: rgb(37, 34, 39);
+    background-color: #eae7dc;
     height:auto;
     padding: 4vmin;
     padding-top: 2vmin;
@@ -84,7 +84,7 @@ body{
     animation: animate 1s linear infinite;
     color: rgb(255, 255, 255);
     /* background-image:linear-gradient(rgb(255, 174, 108),rgb(255, 255, 255),rgb(255, 172, 104)); */
-    filter: drop-shadow(4px 4px 3px rgb(0, 0, 0));
+    filter: drop-shadow(4px 4px 3px rgb(119, 119, 119));
 }
 @keyframes animate{
     0%
@@ -113,16 +113,16 @@ body{
     overflow: hidden;
     white-space: nowrap;
     margin-left: 290px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 @keyframes texttype{
     0%{
         width: 0ch;
-        color: rgb(172, 211, 0);
+        color: rgb(189, 107, 0);
     }
     100%{
         width: 29.5ch;
-        color: white;
+        color: rgb(0, 0, 0);
     }
 }
 
@@ -137,17 +137,17 @@ body{
 .title img{
     width: 20vmin;
     border-radius: 25vmin;
-    border: 5px solid rgb(0, 31, 134);
+    border: 5px solid #0003b1;
 }
 
 
 .intro .description{
     font-size: x-large;
     padding: 2vmin;
-    color: rgb(214, 214, 214);
+    color: rgb(0, 0, 0);
 }
 .highlight{
-    background-color: #f7e0a2;
+    background-color: white;
     color: black;
 }
 
