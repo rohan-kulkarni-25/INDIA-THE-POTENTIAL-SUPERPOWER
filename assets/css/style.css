@@ -64,7 +64,12 @@ body{
 .intro{
     margin-top: 13vmin;
     border-radius: 2vmin;
-    background-color: rgb(37, 34, 39);
+    /* background-color: rgb(37, 34, 39); */
+    /* background-color: white; */
+    background-image: url(/assets/images/hardik-joshi-niUei6OnuiA-unsplash.jpg);
+    background-position-y: top;
+    background-size: cover;
+
     height:auto;
     padding: 4vmin;
     padding-top: 2vmin;
@@ -142,12 +147,17 @@ body{
 
 
 .intro .description{
+    background-color: rgba(255, 255, 255, 0.637);
     font-size: x-large;
     padding: 2vmin;
-    color: rgb(214, 214, 214);
+    font-weight: 500;
+    color: black;
+    border-radius: 5vmin;
+
+
 }
 .highlight{
-    background-color: #f7e0a2;
+    background-color: #ffec4054;
     color: black;
 }
 
@@ -205,9 +215,9 @@ body{
     position: fixed;
     bottom: 30px;
     right: 30px;
-    transition: background-color .3s, 
+    transition: background-color .3s;
       /* opacity .5s, visibility .5s; */
-    opacity: 0;
+    /* opacity: 0; */
     /* visibility: hidden; */
     /* z-index: 1000; */
   }
