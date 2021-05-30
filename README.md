@@ -7,7 +7,7 @@
 
 <h2 align="center"> ❤️ Project  Contributors  ❤️</h2>
 
-| [![ROHAN](https://github.com/rohan2502.png)](https://github.com/rohan2502)  | [![GOURIE](https://github.com/gouriejagtap.png)](https://github.com/gouriejagtap) | [![TEJAS](https://github.com/tejas0145.png)](https://github.com/rohank2502) | 
+| [![ROHAN](https://github.com/rohan-kulkarni-25.png)](https://github.com/rohan-kulkarni-25)  | [![GOURIE](https://github.com/gouriejagtap.png)](https://github.com/gouriejagtap) | [![TEJAS](https://github.com/tejas0145.png)](https://github.com/rohank2502) | 
 |:---:|:---:|:---:|
 | **ROHAN KULKARNI** | **GOURIE JAGTAP** |  **TEJAS MULUK** |
 
