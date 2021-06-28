@@ -4,8 +4,8 @@
     top: 2vmin;
     background-color: #f8c4a9;
     width: 98.5%;
-    border-radius: 2vmin;
-    box-shadow:1px 1px 2px #4b0213 ,1px 1px 2px #580015,1px 1px 2px #580015 inset,1px 1px 2px #580015 inset;
+    border-radius: 1.5vmin;
+    box-shadow:1px 1px 2px #000000 ,1px 1px 2px #000000,1px 1px 2px #000000 inset,1px 1px 2px #000000 inset;
 }
 
 .header .navbar{
@@ -41,14 +41,14 @@
 }
 
 .header .navbar a:hover{
-    color: rgb(70, 255, 255);
-    background-color: rgb(63, 63, 63);
+    color: rgb(104, 199, 199);
+    background-color: rgb(0, 0, 0);
     border-radius: 10px;
 }
 
 body{
-    background-color: #b3b8e2;
-    padding: 4px;
+    background-color: #000000;
+    padding: 10px;
 }
 @media screen and (max-width:600px) {
     .navbar{
@@ -62,6 +62,7 @@ body{
         position: fixed;
     }
 }
+
 .box{
 
     padding: 2vmin;
@@ -81,7 +82,7 @@ body{
     height:auto;
     padding: 4vmin;
     padding-top: 2vmin;
-    box-shadow:1px 1px 5px rgb(0, 0, 0),1px 1px 5px rgb(0, 0, 0),1px 1px 5px rgb(0, 0, 0) inset,1px 1px 5px rgb(0, 0, 0) inset;
+    box-shadow:1px 1px 5px rgb(255, 255, 255),1px 1px 5px rgb(255, 255, 255),1px 1px 5px rgb(255, 255, 255) inset,1px 1px 5px rgb(255, 255, 255) inset;
     
 }
 
@@ -141,7 +142,7 @@ body{
 }
 .title p{
     margin: 0vmin;
-    padding: 0vmin;
+    padding: 2vmin;
     padding-bottom: 2vmin;
     word-spacing: 5px;
 }
@@ -168,45 +169,59 @@ body{
 .hisgeo{
     
     border-radius: 2vmin;  
-    background-color: skyblue;
+    /* background-color: rgb(139, 202, 226); */
     height: auto;
-    padding: 1vmin;
-    margin-top: 15vmin;
-    
+    padding: 4vmin;
+    margin-top: 10vmin;
+    box-shadow:1px 1px 5px rgb(255, 255, 255),1px 1px 5px rgb(255, 255, 255),1px 1px 5px rgb(255, 255, 255) inset,1px 1px 5px rgb(255, 255, 255) inset;
+    background-image: url(../images/INDBA.png);
+    background-size: cover;
     
 }
 #hist{
     font-size:x-large;
+    background-color: rgba(255, 255, 255, 0.637);
+    padding: 3vmin;
 }
 .hisgeo .title{
-    padding-top: 15vmin;
+    padding-top: 5vmin;
 }
 .indcontribute{
     border-radius: 2vmin;
-    margin-top: 15vmin;
-    background-color: skyblue;
-    height: 95vmin;
-    padding: 1vmin;
+    margin-top: 10vmin;
+    background-image: url(../images/innovation.jpg);
+    background-size:cover;
+    height: auto;
+    padding: 4vmin;
+    box-shadow:1px 1px 5px rgb(255, 255, 255),1px 1px 5px rgb(255, 255, 255),1px 1px 5px rgb(255, 255, 255) inset,1px 1px 5px rgb(255, 255, 255) inset;
     
 }
 .indcontribute .title{
-    padding-top: 15vmin;
+    padding-top: 2vmin;
 }
 
 .probsols{
     border-radius: 2vmin;
     
-    margin-top: 15vmin;
+    margin-top: 10vmin;
     margin-bottom: 2vmin;
     background-color: skyblue;
-    height: 85vmin;
-    padding: 1vmin;
+    height: auto;
+    padding: 4vmin;
+    background-image: url(../images/hava.jpg);
+    background-size:cover;
+    box-shadow:1px 1px 5px rgb(255, 255, 255),1px 1px 5px rgb(255, 255, 255),1px 1px 5px rgb(255, 255, 255) inset,1px 1px 5px rgb(255, 255, 255) inset;
 }
 
 .probsols .title{
-    padding-top: 15vmin;
+    padding-top: 3vmin;
+    
 }
-
+#indsp{
+    font-size: x-large;
+    background-color: rgba(255, 255, 255, 0.637);
+    padding: 8px;
+}
 
 
 #button {
