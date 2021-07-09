@@ -1,0 +1,92 @@
+p {
+  margin: 0%;
+  padding: 0%;
+}
+
+.teambox {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  flex-wrap: wrap;
+  margin-top: 5em;
+}
+
+.memberbox {
+  background-color: rgba(176, 218, 255, 0.404);
+  padding: 2em;
+  border-radius: 12px;
+  border: 2px solid black;
+  box-shadow: 4px 4px 16px 16px rgba(0, 0, 0, 0.397);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 2em;
+  width: 20em;
+}
+
+.memberbox p {
+  margin: 0%;
+  font-size: 1.5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border: 2px solid orangered;
+  border-top: 0ch;
+  border-left: 0ch;
+  border-right: 0ch;
+}
+
+.socials img {
+  width: 4em;
+  cursor: pointer;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 10em;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+}
+
+.memberbox:hover {
+  background-color: rgb(97, 181, 255);
+  padding: 2em;
+  border-radius: 12px;
+  border: 2px solid black;
+  box-shadow: 4px 4px 16px 16px rgba(255, 255, 0, 0.63);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 2em;
+}
+
+.socials img {
+  width: 4em;
+  cursor: pointer;
+}
+
+.head {
+  display: flex;
+}
+
+.title {
+  margin: 0 auto;
+  font-size: 5vmax;
+  margin-top: 3vmin;
+}
+
+.home {
+  background-color: rgb(255, 174, 0);
+  height: fit-content;
+  padding: 1em;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-left: 2em;
+  text-decoration: none;
+  color: black;
+  margin-top: 2vmin;
+}
